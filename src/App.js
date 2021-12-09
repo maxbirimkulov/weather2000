@@ -29,7 +29,7 @@ function App() {
         <div className="App">
             <Vanta/>
             {day === 'one' ?   <div className='form'>
-                <h1 className='form__title'>Прогноз погоды</h1>
+                <h1 className='form__title'>Прогноз погоды!</h1>
                 <GetWeather cityName={cityName} setWeather={setWeather} setCityName={setCityName}/>
 
                 {JSON.stringify(weather) === '{}'

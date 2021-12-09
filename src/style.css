@@ -164,3 +164,7 @@
     background-color: slateblue;
     width: 100%;
 }
+
+.get-weather{
+    display: flex;
+}

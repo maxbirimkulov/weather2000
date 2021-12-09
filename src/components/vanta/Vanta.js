@@ -10,7 +10,7 @@ const Vanta = () => {
         if (!vantaEffect) {
             setVantaEffect(CLOUDS({
                 el: myRef.current,
-                THREE: THREE
+                THREE: THREE,
             }))
         }
         return () => {

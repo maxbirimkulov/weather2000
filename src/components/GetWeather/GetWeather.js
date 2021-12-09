@@ -9,11 +9,11 @@ const GetWeather = ({cityName, setWeather, setCityName}) => {
     };
 
     return (
-        <>
+        <div className='get-weather'>
             <input placeholder='Write city name' className='form__input' type="text"
                    onChange={(event) => setCityName(event.target.value)}/>
             <button className='form__btn' type='button' onClick={() => getWeather()}>Получить</button>
-        </>
+        </div>
     );
 };
 
